@@ -1,9 +1,10 @@
-<resources>
-    <string name="app_name">Multithreading1</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">Multithreading1</string>
     <string name="name">Name</string>
     <string name="surname">Surname</string>
     <string name="email">Email</string>
     <string name="phone_number">Phone number</string>
     <string name="save_data_to_a_file">Save data to a file</string>
     <string name="see_saved_data">See saved data</string>
+    <string name="saved_data">Saved data:\nName: %s\nSurname: %s\nEmail: %s\nPhone: %s</string>
 </resources>
